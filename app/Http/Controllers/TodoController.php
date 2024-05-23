@@ -15,4 +15,10 @@ class TodoController extends Controller
 
         return back();
     }
+
+    public function index()
+    {
+        $todos = Todo::all()->reverse();
+        return view('welcome', compact('todos'));
+    }
 }
