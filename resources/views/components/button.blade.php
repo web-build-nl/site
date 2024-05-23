@@ -1,0 +1,1 @@
+<a href="{{$href ?? ''}}"><button class="py-2 px-6 font-bold bg-purple-600 rounded-lg text-white hover:bg-purple-700 transition">{{$value}} <i class="fa-solid fa-arrow-right mx-1"></i></button></a>
