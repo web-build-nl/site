@@ -7,7 +7,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script src="https://kit.fontawesome.com/fe849e8a6a.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-gray-200 dark:bg-gray-800">
+<body class="bg-purple-50">
 
     @include('components.nav')
 

@@ -22,41 +22,66 @@
                 <h1 class="text-purple-700 text-xl font-bold">One page website.</h1>
                 <p class="my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium saepe fuga dolorum iure et quasi quaerat, repellat perspiciatis ea.</p>
                 <ul class="mb-8">
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
+                    <x-feature-link>1 pagina</x-feature-link>
+                    <x-feature-link>Feature 1</x-feature-link>
+                    <x-feature-link>Feature 1</x-feature-link>
+                    <x-feature-link>Feature 1</x-feature-link>
+                    <x-feature-link>Feature 1</x-feature-link>
                 </ul>
-                <x-button :value="'Lees meer'" />
+                <div class="flex items-center justify-between">
+                    <x-button :value="'Lees meer'" />
+                    <h1 class="text-5xl text-purple-700 font-serif">€399</h1>
+                </div>
             </x-card>
 
             <x-card>
                 <h1 class="text-purple-700 text-xl font-bold">Multi page website.</h1>
                 <p class="my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium saepe fuga dolorum iure et quasi quaerat, repellat perspiciatis ea.</p>
                 <ul class="mb-8">
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
+                    <x-feature-link>5 pagina's</x-feature-link>
+                    <x-feature-link>Feature 1</x-feature-link>
+                    <x-feature-link>Feature 1</x-feature-link>
+                    <x-feature-link>Feature 1</x-feature-link>
+                    <x-feature-link>Feature 1</x-feature-link>
                 </ul>
-                <x-button :value="'Lees meer'" />
+                <div class="flex items-center justify-between">
+                    <x-button :value="'Lees meer'" />
+                    <h1 class="text-5xl text-purple-700 font-serif">€599</h1>
+                </div>
             </x-card>
 
             <x-card>
                 <h1 class="text-purple-700 text-xl font-bold">CMS website.</h1>
                 <p class="my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium saepe fuga dolorum iure et quasi quaerat, repellat perspiciatis ea.</p>
                 <ul class="mb-8">
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
-                    <li class="font-semibold my-3"><i class="fa-solid fa-check text-purple-500 font-bold px-1"></i> feature 1</li>
+                    <x-feature-link>Onbeperkte hoeveelheid pagina's</x-feature-link>
+                    <x-feature-link>Mogelijkheid om content toe te voegen</x-feature-link>
+                    <x-feature-link>Log in systeem</x-feature-link>
+                    <x-feature-link>3 maanden hosting inbegrepen</x-feature-link>
+                    <x-feature-link>5 uur onderhoud inbegrepen</x-feature-link>
                 </ul>
-                <x-button :value="'Lees meer'" />
+                <div class="flex items-center justify-between">
+                    <x-button :value="'Lees meer'" />
+                    <h1 class="text-5xl text-purple-700 font-serif">€1499</h1>
+                </div>
             </x-card>
 
+        </div>
+    </div>
+
+    <div class="container mx-auto py-12">
+        <h1 class="text-3xl mb-5 text-purple-600 font-bold text-center">Wie zijn wij</h1>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="my-auto">
+                <h1 class="text-lg text-purple-600">Some bull</h1>
+                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae harum culpa quod ex ipsam rem necessitatibus cum eum maiores dolores, voluptatum odit? Soluta sint nostrum eum suscipit non voluptatem facilis!</p>
+
+                <h1 class="text-lg text-purple-600">Some more bull</h1>
+                <p class="">Lorem ipsu ipsam rem necessitatint nostrum eum suscipit non voluptatem facilis!</p>
+            </div>
+            <div class="aspect-square h-96 rounded-full bg-purple-200 border border-solid border-purple-600 flex items-center justify-center mx-auto">
+                 <i class="fa-solid fa-user text-9xl text-purple-600"></i>
+            </div>
         </div>
     </div>
 @endsection
