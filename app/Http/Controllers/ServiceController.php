@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use App\Models\Service;
 use Illuminate\Http\Request;
 
-class PageController extends Controller
+class ServiceController extends Controller
 {
-    public function home()
+    public function index()
     {
         $services = Service::all();
-        return view('welcome', compact('services'));
+        return view('services.index', compact('services'));
     }
 }

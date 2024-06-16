@@ -15,8 +15,8 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         User::factory()->create([
-            'email' => 'web.build.nl@gmail.com',
-            'password' => 'AmX86y2R..//!!'
+            'email' => 'admin@admin',
+            'password' => 'admin'
         ]);
         Todo::factory(5)->create();
     }

@@ -1,5 +1,5 @@
-<nav class=" sticky top-0 px-6 py-2 sm:px-4">
-    <div class="bg-purple-100 rounded-2xl">
+{{-- <nav class="px-6 py-4 sm:px-4">
+    <div class="bg-purple-200 rounded-2xl">
         <div class="p-2 flex justify-between items-center container mx-auto">
             <div>
                 <h1 class="text-3xl font-bold"> <\> Web Build</h1>
@@ -12,4 +12,4 @@
             </div>
         </div>
     </div>
-</nav>
+</nav> --}}
